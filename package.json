@@ -1,0 +1,5 @@
+{
+  "name": "test-rn",
+  "packageManager": "yarn@4.7.0",
+  "type": "module"
+}
