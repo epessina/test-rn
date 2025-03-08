@@ -7,6 +7,8 @@ on:
       - edited
       - synchronize
       - reopened
+      - labeled
+      - unlabeled
 
 permissions:
   pull-requests: write
@@ -23,6 +25,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
+          ignoreLabels: |
+            skip_rn
           subjectPattern: ^(?![A-Z]).+$
           subjectPatternError: Please ensure that the PR subject doesn't start with an uppercase character.
 
