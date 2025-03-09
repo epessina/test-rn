@@ -11,3 +11,7 @@ changelog:
     - title: Changes to the sync script
       labels:
         - sync script
+
+    - title: Other changes
+      labels:
+        - "*"
