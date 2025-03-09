@@ -1,0 +1,13 @@
+changelog:
+  exclude:
+    authors:
+      - dependabot
+
+  categories:
+    - title: Changes to the Catalog content
+      labels:
+        - catalog content
+
+    - title: Changes to the sync script
+      labels:
+        - sync script
